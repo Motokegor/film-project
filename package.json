@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "front-end": "parcel ./pages/index.html  --open --port 3000",
+    "back-end": "json-server --watch db.json --port 3003"
+  },
+  "author": "Motok Egor",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
